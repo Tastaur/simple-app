@@ -1,10 +1,10 @@
 import React from "react";
-import ContentHeader from "../../../elements/ContentHeader";
+import ContentHeader from "../../../../elements/ContentHeader";
 import classes from "./style.module.css";
 import {skills} from "./_mock_";
-import Badge from "../../../elements/Badge";
-import AddButton from "../../../elements/AddButton";
-import Divider from "../../../elements/Divider/Index";
+import Badge from "../../../../elements/Badge";
+import AddButton from "../../../../elements/AddButton";
+import Divider from "../../../../elements/Divider/Index";
 
 const SkillBlock = () => {
     return (

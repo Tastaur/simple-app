@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formWrapper {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 16px;
+    width: 300px;
+}
+.inputWrapper{
+    margin-bottom: 8px;
+}
+.input{
+    width: 90%;
+    height: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.button{
+    width: 100%;
+    border-radius: 10px;
+    background: #2C5DDF;
+    border: none;
+    color: ivory;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.errorMessage{
+    color: red;
+}

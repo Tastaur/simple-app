@@ -1,15 +1,26 @@
 import React from "react";
 import classes from './style.module.css'
 
-const CenterSection = () => {
-    return (
-        <div className={classes.wrapper}>
-        <div className={classes.header}>
-        <h2 className={classes.headerTitle}>Frontend Developer</h2>
-    <p className={classes.changeButton}>Изменить</p>
-        </div>
-        </div>
-)
+export interface IProps {
+    title: string,
+    subtitle?: string
 }
 
-export default CenterSection
+
+const ContentHeader = ({title, subtitle}: IProps) => {
+    return (
+        <div className={classes.wrapper}>
+            <div className={classes.textWrapper}>
+                <h2 className={classes.title}>
+                    {title}
+                </h2>
+                {subtitle && <h2 className={classes.subtitle}>
+                    {subtitle}
+                </h2>}
+            </div>
+            <p className={classes.changeButton}>Изменить</p>
+        </div>
+    )
+}
+
+export default ContentHeader

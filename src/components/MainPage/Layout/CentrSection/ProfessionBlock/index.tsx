@@ -2,7 +2,7 @@ import React from "react";
 import classes from './style.module.css'
 import {professionalItems} from "./_mock_";
 import ProfessionalBlockItem from "./ProfessionBlockItem";
-import Divider from "../../../elements/Divider/Index";
+import Divider from "../../../../elements/Divider/Index";
 
 const ProfessionalBlock = () => {
     return (

@@ -1,12 +1,10 @@
 .wrapper{
-    height: 42px;
+    height: 41px;
+    width: 41px;
     background: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.buttonText{
-    font-size: 16px;
-    color: #255DEF;
+    cursor: pointer;
 }

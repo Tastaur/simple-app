@@ -1,6 +1,6 @@
 import React from "react";
 import {ExperienceItem} from "../_mock_";
-import ContentHeader from "../../../../elements/ContentHeader";
+import ContentHeader from "../../../../../elements/ContentHeader";
 import ExperienceBlockItem from "./ExperienceBlockItem/Index";
 
 const ExperienceBlockList = ({title, subtitle,essences}:ExperienceItem) =>{

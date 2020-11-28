@@ -1,8 +1,8 @@
 import React from "react";
 import classes from './style.module.css'
-import FilledButton from "../../../elements/FilledButton";
+import FilledButton from "../../../../elements/FilledButton";
 import {counters} from "./_mock_";
-import CounterWithTitle from "../../../elements/CounterWithTitle";
+import CounterWithTitle from "../../../../elements/CounterWithTitle";
 import ProfileAvatar from "./ProfileAvatar";
 
 const ProfileBlock = () => {

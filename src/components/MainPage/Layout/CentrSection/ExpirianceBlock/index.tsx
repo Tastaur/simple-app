@@ -1,7 +1,7 @@
 import React from "react";
 import ExperienceBlockList from "./ExperienceBlockList/Index";
 import {experienceItems} from "./_mock_";
-import Divider from "../../../elements/Divider/Index";
+import Divider from "../../../../elements/Divider/Index";
 
 const ExperienceBlock = () => {
     return (

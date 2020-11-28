@@ -1,19 +1,14 @@
 import React from "react";
 import classes from "./style.module.css";
+import plus from '../../../static/icons/plus.png'
 
-export interface IProps {
-    title: string
-    buttonWidth?: number
-}
 
-const FilledButton = ({title, buttonWidth = 304}: IProps) => {
+const AddButton = () => {
     return (
-        <div className={classes.wrapper} style={{
-            width: buttonWidth
-        }}>
-            <h4 className={classes.buttonText}>{title}</h4>
+        <div className={classes.wrapper}>
+            <img src={plus} alt={plus}/>
         </div>
     )
 }
 
-export default FilledButton
+export default AddButton

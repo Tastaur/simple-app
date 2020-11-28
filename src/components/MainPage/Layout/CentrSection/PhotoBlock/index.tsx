@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./style.module.css";
-import Divider from "../../../elements/Divider/Index";
-import photo from '../../../../static/img/581169567.jpeg'
-import FilledButton from "../../../elements/FilledButton";
+import Divider from "../../../../elements/Divider/Index";
+import photo from '../../../../../static/img/581169567.jpeg'
+import FilledButton from "../../../../elements/FilledButton";
 
 const PhotoBlock = () => {
     return (

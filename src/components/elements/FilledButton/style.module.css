@@ -1,12 +1,13 @@
-.wrapper{
-    height: 42px;
+.wrapper {
     background: #F2F2F2;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.buttonText{
+
+.buttonText {
     font-size: 16px;
     color: #255DEF;
 }

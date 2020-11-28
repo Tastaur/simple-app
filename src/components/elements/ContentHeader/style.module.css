@@ -1,20 +1,23 @@
 .wrapper {
-    background: #FFFFFF;
-    border: 1px solid #E7E7E7;
-    border-radius: 10px;
-    width: 876px;
-    margin-left: 20px;
-    padding: 32px 40px;
-}
-
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.headerTitle{
+
+.title {
     font-size: 26px;
 }
-.changeButton{
+
+.textWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    margin-left: 8px;
+    color: #B9B9B9
+}
+
+.changeButton {
     color: #2C5DDF;
 }

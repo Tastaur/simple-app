@@ -1,7 +1,7 @@
 import React from "react";
-import ContentHeader from "../../../elements/ContentHeader";
+import ContentHeader from "../../../../elements/ContentHeader";
 import classes from "./style.module.css";
-import Divider from "../../../elements/Divider/Index";
+import Divider from "../../../../elements/Divider/Index";
 
 const AboutMeBlock = () => {
     return (

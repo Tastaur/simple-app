@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './style.module.css'
-import avatar from '../../../../../static/img/5594db0493b2f952e3dffce715fbbce8.jpg'
+import avatar from '../../../../../../static/img/5594db0493b2f952e3dffce715fbbce8.jpg'
 
 const ProfileAvatar = () => {
     return (

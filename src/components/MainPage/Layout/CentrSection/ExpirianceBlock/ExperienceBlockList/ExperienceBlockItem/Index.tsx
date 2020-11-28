@@ -1,7 +1,7 @@
 import React from "react";
 import {ExperienceEssence} from "../../_mock_";
 import classes from "./style.module.css";
-import FilledButton from "../../../../../elements/FilledButton";
+import FilledButton from "../../../../../../elements/FilledButton";
 
 const ExperienceBlockItem = (
     {organization, position, totalTime, totalTimeToString}: ExperienceEssence

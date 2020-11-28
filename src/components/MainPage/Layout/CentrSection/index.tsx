@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './style.module.css'
-import ContentHeader from "../../elements/ContentHeader";
+import ContentHeader from "../../../elements/ContentHeader";
 import ProfessionalBlock from "./ProfessionBlock";
 import ExperienceBlock from "./ExpirianceBlock";
 import {profession} from "./ExpirianceBlock/_mock_";

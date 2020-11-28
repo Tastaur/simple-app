@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./style.module.css";
-import Divider from "../../../elements/Divider/Index";
-import ContentHeader from "../../../elements/ContentHeader";
-import FilledButton from "../../../elements/FilledButton";
+import Divider from "../../../../elements/Divider/Index";
+import ContentHeader from "../../../../elements/ContentHeader";
+import FilledButton from "../../../../elements/FilledButton";
 
 const PortfolioBlock = () => {
     return (

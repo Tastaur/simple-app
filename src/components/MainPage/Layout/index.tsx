@@ -1,20 +1,16 @@
 import React from "react";
 import classes from './style.module.css'
-import Avatar from '../../../static/img/5594db0493b2f952e3dffce715fbbce8.jpg'
+import LeftSection from "./LeftSection";
+import CenterSection from "./CentrSection";
+import RightSection from "./RightSection";
 
-const Header = () => {
+const Layout = () => {
     return (
-        <div>
-        <header className={classes.header}>
-            <div className={classes.titleContainer}>
-                <p>Мой профиль</p>
-            </div>
-            <div>
-                <img className={classes.avatar} src={Avatar} alt="ava"/>
-            </div>
-        </header>
-            <div className={classes.subHeader}/>
+        <div className={classes.layoutWrapper}>
+           <LeftSection/>
+            <CenterSection/>
+            <RightSection/>
         </div>
     )
 }
-export default Header
+export default Layout
