@@ -1,0 +1,16 @@
+.viewedItem {
+    text-align: center;
+    width: 146px;
+    height: 68px;
+}
+
+.viewedName {
+    font-weight: normal;
+    font-size: 16px;
+    color: #A9A9A9;
+}
+
+.viewedCounter {
+    font-weight: bold;
+    font-size: 24px;
+}

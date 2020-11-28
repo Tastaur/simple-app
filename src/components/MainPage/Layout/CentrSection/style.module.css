@@ -1,0 +1,17 @@
+.wrapper {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    width: 876px;
+    margin-left: 20px;
+    padding: 32px 40px 42px;
+}
+
+.aboutProfession {
+    width: 812px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px -5px rgba(33, 35, 40, 0.07);
+    border-radius: 12px;
+    padding: 24px 32px;
+}

@@ -1,0 +1,20 @@
+.avatar {
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 32px;
+    margin-bottom: 14px;
+}
+
+.profession {
+    font-weight: 600;
+    font-size: 16px;
+    color: #A9A9A9;
+}
+

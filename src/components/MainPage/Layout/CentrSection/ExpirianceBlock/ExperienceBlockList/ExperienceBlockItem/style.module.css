@@ -1,0 +1,19 @@
+.wrapper {
+    margin: 50px 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstRow {
+    margin-bottom: 12px;
+}
+
+.secondRow {
+    color: #B9B9B9;
+    font-weight: 600;
+}
+

@@ -1,0 +1,10 @@
+.wrapper{
+    margin-top: 52px;
+
+}
+
+.badgeWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px 0px
+}

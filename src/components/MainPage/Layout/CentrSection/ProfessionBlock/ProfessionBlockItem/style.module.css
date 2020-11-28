@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+
+.title{
+    font-weight: normal;
+}
+.description{
+    color: #3C3C3C;
+}

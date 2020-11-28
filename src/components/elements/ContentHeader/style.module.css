@@ -1,0 +1,20 @@
+.wrapper {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    width: 876px;
+    margin-left: 20px;
+    padding: 32px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerTitle{
+    font-size: 26px;
+}
+.changeButton{
+    color: #2C5DDF;
+}
