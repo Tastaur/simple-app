@@ -8,7 +8,7 @@ const ContactBlockItem = ({type, description, validateType}: IContact) => {
     const [inputText, setInputText] = useState<string>(value)
     const [editMode, setEditMode] = useState<boolean>(false)
     const [errorText, setErrorText] = useState<string>('')
-    const onHandlerSubmit = () => {
+    const onSubmitHandler = () => {
         if (validateType) {
             if (inputText && validateType.test(inputText)) {
                 setValue(inputText)
@@ -27,7 +27,7 @@ const ContactBlockItem = ({type, description, validateType}: IContact) => {
             }
         }
     }
-    const onCancelSubmit = () =>{
+    const onCancelHandler = () =>{
         setInputText(value)
         setEditMode(false)
         setErrorText('')
@@ -42,8 +42,8 @@ const ContactBlockItem = ({type, description, validateType}: IContact) => {
                         value={inputText}
                         onChange={e => setInputText(e.target.value)}/>
                     <div className={classes.buttonWrapper}>
-                        <button className={classes.button} onClick={onHandlerSubmit}>Сохранить</button>
-                        <button className={classes.button} onClick={onCancelSubmit}>Закрыть</button>
+                        <button className={classes.button} onClick={onSubmitHandler}>Сохранить</button>
+                        <button className={classes.button} onClick={onCancelHandler}>Закрыть</button>
                     </div>
                 </div>
                 : <h4 onDoubleClick={() => setEditMode(true)}
