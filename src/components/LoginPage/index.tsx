@@ -2,11 +2,15 @@ import React, {useState} from "react";
 import rootStore from "../../store/rootStore";
 import classes from "./style.module.css";
 import {observer} from "mobx-react";
+import {Redirect} from "react-router-dom";
 
 const LoginPage = () => {
     const {appStateStore} = rootStore
     const [login, setLogin] = useState<string>('')
     const [password, setPassword] = useState<string>('')
+    if (appStateStore?.isAuth) {
+        return <Redirect to={'/main'}/>
+    }
     const submitHandler = () => {
         appStateStore?.authorized(login, password)
     }
