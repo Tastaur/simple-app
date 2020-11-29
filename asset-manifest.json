@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/simple-app/static/css/main.afc5c18d.chunk.css",
-    "main.js": "/simple-app/static/js/main.afb9b4d2.chunk.js",
-    "main.js.map": "/simple-app/static/js/main.afb9b4d2.chunk.js.map",
-    "runtime-main.js": "/simple-app/static/js/runtime-main.7d3b04ed.js",
-    "runtime-main.js.map": "/simple-app/static/js/runtime-main.7d3b04ed.js.map",
-    "static/js/2.9008c404.chunk.js": "/simple-app/static/js/2.9008c404.chunk.js",
-    "static/js/2.9008c404.chunk.js.map": "/simple-app/static/js/2.9008c404.chunk.js.map",
-    "static/js/3.b855df0b.chunk.js": "/simple-app/static/js/3.b855df0b.chunk.js",
-    "static/js/3.b855df0b.chunk.js.map": "/simple-app/static/js/3.b855df0b.chunk.js.map",
+    "main.js": "/simple-app/static/js/main.b0086f2e.chunk.js",
+    "main.js.map": "/simple-app/static/js/main.b0086f2e.chunk.js.map",
+    "runtime-main.js": "/simple-app/static/js/runtime-main.3118b6c1.js",
+    "runtime-main.js.map": "/simple-app/static/js/runtime-main.3118b6c1.js.map",
+    "static/js/2.7d5fced8.chunk.js": "/simple-app/static/js/2.7d5fced8.chunk.js",
+    "static/js/2.7d5fced8.chunk.js.map": "/simple-app/static/js/2.7d5fced8.chunk.js.map",
+    "static/js/3.8a982a23.chunk.js": "/simple-app/static/js/3.8a982a23.chunk.js",
+    "static/js/3.8a982a23.chunk.js.map": "/simple-app/static/js/3.8a982a23.chunk.js.map",
     "index.html": "/simple-app/index.html",
     "static/css/main.afc5c18d.chunk.css.map": "/simple-app/static/css/main.afc5c18d.chunk.css.map",
-    "static/js/2.9008c404.chunk.js.LICENSE.txt": "/simple-app/static/js/2.9008c404.chunk.js.LICENSE.txt",
+    "static/js/2.7d5fced8.chunk.js.LICENSE.txt": "/simple-app/static/js/2.7d5fced8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/simple-app/static/media/12093.8181ca4b.ttf",
     "static/media/5594db0493b2f952e3dffce715fbbce8.586d6118.jpg": "/simple-app/static/media/5594db0493b2f952e3dffce715fbbce8.586d6118.jpg",
     "static/media/581169567.7fb0a838.jpeg": "/simple-app/static/media/581169567.7fb0a838.jpeg",
     "static/media/style.module.css": "/simple-app/static/media/Rectangle 3572.2debb066.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d3b04ed.js",
-    "static/js/2.9008c404.chunk.js",
+    "static/js/runtime-main.3118b6c1.js",
+    "static/js/2.7d5fced8.chunk.js",
     "static/css/main.afc5c18d.chunk.css",
-    "static/js/main.afb9b4d2.chunk.js"
+    "static/js/main.b0086f2e.chunk.js"
   ]
 }
