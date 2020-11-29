@@ -6,19 +6,16 @@ import telegramIcon from '../../../../../static/icons/telegram_icon.png'
 import youtubeIcon from '../../../../../static/icons/youtube_icon.png'
 import AddButton from "../../../../elements/AddButton";
 import {contacts} from "./_mock_";
+import ContactBlockItem from "./ContactBlockItem";
 
 const ContactBlock = () => {
 
     return (
         <div className={classes.contactBlock}>
-            {contacts.map(item=>{
-                return(
-                    <div key={item.description}>
-                        <h4 className={classes.type}>{item.type}</h4>
-                        <h4 className={classes.description}>{item.description}</h4>
-                    </div>
-                )
-            })}
+            {contacts.map(item => <ContactBlockItem type={item.type}
+                                                    validateType={item.validateType}
+                                                    description={item.description}
+                                                    key={item.type}/>)}
         </div>
     )
 }
